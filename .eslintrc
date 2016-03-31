@@ -1,0 +1,19 @@
+{
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "serverless-rollup-plugin",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "description": "Serverless Rollup Plugin - reduces Lambda file size through via bundling and tree-shaking",
+  "author": "chadsmith",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chadsmith/serverless-rollup-plugin"
+  },
+  "keywords": [
+    "serverless rollup plugin",
+    "serverless rollup",
+    "serverless plugins",
+    "lambda browserify",
+    "lambda minify",
+    "api gateway",
+    "lambda",
+    "aws",
+    "aws lambda",
+    "amazon",
+    "amazon web services",
+    "serverless.com"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "rollup": "^0.25.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.0",
+    "eslint": "^2.5.3"
+  },
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "wrench": "^1.5.8"
+  }
+}
