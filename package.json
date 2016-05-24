@@ -27,7 +27,7 @@
   ],
   "main": "index.js",
   "peerDependencies": {
-    "rollup": "^0.25.7"
+    "rollup": "^0.26.3"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.0",

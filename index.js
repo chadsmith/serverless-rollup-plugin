@@ -37,7 +37,7 @@ module.exports = function(S) {
       let projectConf = project.custom && project.custom.rollup;
       let funcConf = func.custom && func.custom.rollup;
 
-      if(func.getRuntime().getName() === 'nodejs' && projectConf && (funcConf || (projectConf.global && funcConf !== false))) {
+      if(/^nodejs/.test(func.getRuntime().getName()) && projectConf && (funcConf || (projectConf.global && funcConf !== false))) {
         let optimizer = new RollupNodejs(S, evt, func);
         return optimizer.optimize();
       }
